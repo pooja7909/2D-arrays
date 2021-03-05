@@ -14,34 +14,22 @@ def sum2(laptops):
 
 total=sum2(laptops)
 print(total)
-'''
-def row_sums(square):
 
-    # list to store sums
-    output = []
 
-    # go through each row in square
-    for row in square:
+#Question A two dimensional array stores the data of the number of Laptops sold by a company in Dubai. The data shows the sales for the 12 months. The Laptops brands sold by the company are: SONY, HP, DELL and ACER. Download the data from theictclub.com.
+	SONY	HP	DELL	ACER
+Jan	15	34	23	12
+Feb	12	43	45	23
+March	13	33	43	23
+April	45	23	32	44
+May	34	32	12	23
+June	32	33	12	23
+July	22	23	33	23
+August	12	23	12	23
+September	10	21	34	24
+October	12	34	35	23
+November	18	23	40	33
+December	20	30	42	35
 
-        # variable to store row total
-        total = 0
-
-        # go through each item in row and add to total
-        for item in row:
-            total += item
-
-        # append the row's total to the output list
-        output.append(total)
-    return output
-
-  
-
-square = [
-   [1, 2, 3, 4],
-   [5, 6, 7, 8],
-   [9, 10, 11, 12],
-   [13, 14, 15, 16]
-]
-
-row_totals = row_sums(square)
-print(row_totals)'''
+Your program must produce the output for
+1.	Total number of laptops of each brand sold during the entire year.
