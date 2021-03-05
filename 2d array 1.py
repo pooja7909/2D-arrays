@@ -14,6 +14,12 @@ def sum2(laptops):
 
 total=sum2(laptops)
 print(total)
+total=sum2(laptops)
+print(total)
+for i in range(0,len(total)):
+    if total[i]>max:
+        max=total[i]
+print("Maximum is",max)
 
 
 #Question A two dimensional array stores the data of the number of Laptops sold by a company in Dubai. The data shows the sales for the 12 months. The Laptops brands sold by the company are: SONY, HP, DELL and ACER. Download the data from theictclub.com.
@@ -33,3 +39,4 @@ December	20	30	42	35
 
 Your program must produce the output for
 1.	Total number of laptops of each brand sold during the entire year.
+2. Find the month that had maximum sale
